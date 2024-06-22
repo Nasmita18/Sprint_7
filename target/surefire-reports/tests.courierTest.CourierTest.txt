@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: tests.courierTest.CourierTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 66.933 s <<< FAILURE! - in tests.courierTest.CourierTest
+createCourierWithDuplicateLogin(tests.courierTest.CourierTest)  Time elapsed: 1.509 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: "Этот логин уже используется"
+     but: was "Этот логин уже используется. Попробуйте другой."
+	at tests.courierTest.CourierTest.verifyErrorResponse(CourierTest.java:53)
+	at tests.courierTest.CourierTest.createCourierWithDuplicateLogin(CourierTest.java:131)
+
