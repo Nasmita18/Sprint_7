@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.courierTest.CourierTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 64.004 s <<< FAILURE! - in tests.courierTest.CourierTest
+createCourierWithDuplicateLogin(tests.courierTest.CourierTest)  Time elapsed: 1.577 s  <<< FAILURE!
+java.lang.AssertionError
+	at tests.courierTest.CourierTest.createCourierWithDuplicateLogin(CourierTest.java:74)
+
